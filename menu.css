@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor__nav{
+    margin: auto;
+    width:500px
+}
+
+.contenedor__ul{
+    list-style: none;
+}
+.contenedor__li{
+    float: left;
+    width: 20%;
+}
+
+.contenedor__li a{
+
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: black;
+
+}
+
+
+.contenedor__li a:hover{
+    background: lemonchiffon;
+    color: black;
+}
